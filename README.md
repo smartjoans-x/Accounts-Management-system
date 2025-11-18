@@ -18,4 +18,4 @@ Efficiency Metrics: (If applicable) Calculation of mileage/efficiency (e.g., $km
 https://github.com/smartjoans-x/Accounts-Management-system/blob/main/installation%20%26%20readme.txt
 
 
-If Need Any Help with Instalation Feel Free to contact smartjoans.space/contact.html](https://www.smartjoans.space/contact.html
+If Need Any Help with Instalation Feel Free to contact https://www.smartjoans.space/contact.html

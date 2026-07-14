@@ -13,7 +13,7 @@ Quantity filled (in liters or gallons)Odometer readingIntegrated Payment Trackin
 Records how the fuel payment was made:CashBank/Debit CardCredit Card  
 Efficiency Metrics: (If applicable) Calculation of mileage/efficiency (e.g., $km/L$ or $MPG$) based on past readings.
 
-See Video for know about that Workflow System https://www.smartjoans.space/projects.html
+See Video for know about that Workflow System https://services.smartjoans.space/projects.html
 
 **Instalation Guide**
 

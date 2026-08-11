@@ -18,7 +18,6 @@ See Video for know about that Workflow System https://services.smartjoans.space/
 **Instalation Guide**
 
 ==================================================
-PROJECT TITLE
 Account Management  System
 ==================================================
 

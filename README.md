@@ -1,68 +1,103 @@
-# Accounts-Management-system
-Free Accounts Management system  
+<div align="center">
+  
+  <h1>📊 Accounts Management System</h1>
+  <p><b>Free & Comprehensive Accounts & Expense Management System</b></p>
+  
+  <a href="https://services.smartjoans.space/projects"><img src="https://img.shields.io/badge/View_Demo_Video-smartjoans.space-blue?style=for-the-badge&logo=youtube" alt="Demo Video"></a>
+  <a href="https://services.smartjoans.space/contact"><img src="https://img.shields.io/badge/Support-Contact_Us-orange?style=for-the-badge&logo=minutemailer" alt="Contact"></a>
+  <img src="https://img.shields.io/badge/License-Free-success?style=for-the-badge&logo=open-source-initiative" alt="Free">
+</div>
 
+<br>
 
-⛽ Core Features (The Workflow) - ExpandedDaily 
-Expense Logging: Users can input general expenditures with payment type (Cash, Bank Transfer, Online ).
-Multi-Channel Monitoring: Separate ledgers/views for Cash Flow,
+## 📋 Project Overview
+The **Accounts Management System** is a free, powerful, and easy-to-use platform designed to track daily expenses, monitor cash flow across multiple channels, and manage vehicle fuel consumption. Built for simplicity and efficiency, it helps you keep a clean ledger of all your financial activities.
 
-Bank Account Balance, and Online Payments.Bank Withdrawal Tracking: Dedicated module to record and reconcile withdrawal transactions.
-🚗 Vehicle Fuel Monitoring Module (New Feature):Detailed Logging: Tracks every fill-up transaction including:Vehicle name/IDFuel type (Petrol, Diesel, etc.)
-Quantity filled (in liters or gallons)Odometer readingIntegrated Payment Tracking: 
+🎥 **[Watch the Workflow Video here!](https://services.smartjoans.space/projects)**
 
-Records how the fuel payment was made:CashBank/Debit CardCredit Card  
-Efficiency Metrics: (If applicable) Calculation of mileage/efficiency (e.g., $km/L$ or $MPG$) based on past readings.
+---
 
-See Video for know about that Workflow System https://services.smartjoans.space/projects
+## ⛽ Core Features (The Workflow)
 
-**Instalation Guide**
+### 💰 Financial Management
+- **Daily Expense Logging:** Easily input general expenditures and categorize them by payment type (Cash, Bank Transfer, Online).
+- **Multi-Channel Monitoring:** Maintain separate ledgers and views for:
+  - Cash Flow
+  - Bank Account Balances
+  - Online Payments
+- **Bank Withdrawal Tracking:** A dedicated module to accurately record, monitor, and reconcile bank withdrawal transactions.
 
-==================================================
-Account Management  System
-==================================================
+### 🚗 Vehicle Fuel Monitoring Module (New!)
+A specialized module to track vehicle fuel expenses and calculate efficiency.
+- **Detailed Logging:** Track every single fill-up transaction, including:
+  - Vehicle Name / ID
+  - Fuel Type (Petrol, Diesel, etc.)
+  - Quantity filled (in Liters or Gallons)
+  - Current Odometer reading
+- **Integrated Payment Tracking:** Record exactly how the fuel was paid for (Cash, Bank/Debit Card, Credit Card).
+- **Efficiency Metrics:** Automatically calculates vehicle mileage/efficiency (e.g., km/L or MPG) based on historical odometer readings.
 
-
+---
 
 ## 🛠️ Installation and Setup Guide
 
-This guide details setting up the project using a local machine and **XAMPP**.
+Follow these simple steps to get the project running on your local machine using XAMPP.
 
-### 1. Prerequisites
+### 1️⃣ Prerequisites
+- **XAMPP:** Installed and operational (Make sure Apache and MySQL services are running).
+- **Composer:** PHP's dependency manager installed on your system.
 
-* **XAMPP:** Installed and operational (Apache and MySQL services).
-* **Composer:** PHP's dependency manager.
+### 2️⃣ Project File Setup
+<details>
+<summary><b>Click to view File Setup instructions</b></summary>
+<br>
 
-### 2. Project File Setup
+1. **Download the Project:** Download the project files as a ZIP archive from the GitHub repository.
+2. **Extract Files:** Unzip the downloaded file.
+3. **Copy to Web Root:** Move all contents from the unzipped folder into your XAMPP web root directory. 
+   *(Example: `C:\xampp\htdocs\Accounts_Management`)*
+4. **Database Import (Crucial):** Open `phpMyAdmin`, create a new database, and import the SQL file located inside the project's `database` folder.
 
-1.  **Download the Project:** Download the project files as a **ZIP** archive from the GitHub repository.
-2.  **Extract Files:** Unzip the downloaded file.
-3.  **Copy to htdocs:** Copy **all contents** from the unzipped folder into your XAMPP web root directory, e.g., `C:\xampp\htdocs\Accounts_Management`.
-4.   import the sql file from phpmyadmin  given in database folder ( dont forgot )
-### 3. PHP and Composer Setup
+</details>
 
-This project uses a dedicated PHP version within the project directory.
+### 3️⃣ PHP Configuration (Custom Setup)
+This project requires a dedicated PHP version placed directly within the project directory.
 
-1.  **Obtain PHP:** Download the required PHP files.
-    * **Source:** Use the provided Mega link: https://mega.nz/file/fo5gURKS#ZD_BKn7TX-qPz3y1A_BWtikBhBh38GI6xIB0T_IrcVk
-2.  **Create PHP Folder:** Navigate to your project root (`.../htdocs/Accounts_Management`) and create a new folder named `php`.
-3.  **Move PHP Contents:** Copy **all contents** from the downloaded PHP ZIP into this new `php` folder.
+<details>
+<summary><b>Click to view PHP Setup instructions</b></summary>
+<br>
 
-### 4. Database Configuration
+1. **Obtain Custom PHP:** Download the required PHP files from this secure link: 
+   👉 **[Download PHP Archive (Mega.nz)](https://mega.nz/file/fo5gURKS#ZD_BKn7TX-qPz3y1A_BWtikBhBh38GI6xIB0T_IrcVk)**
+2. **Create PHP Folder:** Navigate to your project root folder (e.g., `.../htdocs/Accounts_Management`) and create a new folder named `php`.
+3. **Extract & Move:** Extract the downloaded PHP ZIP archive and copy all its contents into the newly created `php` folder.
 
-* Launch the XAMPP Control Panel and start the **Apache** and **MySQL** services.
-* [ADD STEPS HERE: Instructions for creating the database and importing SQL files.]
+</details>
 
-### 5. Default Login Credentials
+### 4️⃣ Database Configuration
+1. Launch the **XAMPP Control Panel**.
+2. Click **Start** for both the `Apache` and `MySQL` modules.
+3. Open your browser and go to `http://localhost/phpmyadmin`.
+4. Create a new database corresponding to the project.
+5. Import the provided `.sql` file (found in the `database` folder of the downloaded repository) into your new database.
 
-Use the following credentials for initial access:
+---
+
+## 🔐 Default Login Credentials
+
+Use the following default credentials for your initial login. 
 
 | Field | Value |
 | :--- | :--- |
-| **Username** | admin |
-| **Password** | 12345678 |
+| **Username** | `admin` |
+| **Password** | `12345678` |
 
+> ⚠️ **SECURITY RECOMMENDATION:** Please change the default password immediately after logging in for the first time to secure your accounts.
 
-**RECOMMENDATION:** Change the default password immediately after logging in.
+---
 
+## 🤝 Support & Contact
 
-If Need Any Help with Instalation Feel Free to contact https://services.smartjoans.space/contact
+If you need any help with the installation, configuration, or have feature requests, feel free to reach out!
+
+📩 **Contact Support:** [https://services.smartjoans.space/contact](https://services.smartjoans.space/contact)
